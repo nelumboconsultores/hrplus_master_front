@@ -1,0 +1,13 @@
+src/core/types/sxStyles.type.ts
+src/core/components/inputs/inputPhone.tsx
+src/core/components/inputs/inputAutocomplete.tsx
+src/core/utils/validations/useBuildSchema.ts
+src/modules/incidents/components/cardGallery/index.tsx
+src/modules/incidents/components/textCatalogue/index.tsx
+src/core/components/inputs/inputMultiSelect.tsx
+src/core/types/inputAutocompleteProps.type.ts
+src/core/components/inputs/inputAutoSearch.tsx
+src/core/components/inputs/inputAutoSearchButton.tsx
+src/modules/dataStructure/modules/companyStructure/components/FieldsDAD/dynamicField.tsx
+src/modules/manageOrganization/modules/dinamicModels/utils/getDinamicValues.ts
+src/modules/dataStructure/modules/companyStructure/utils/validationsTypes.ts

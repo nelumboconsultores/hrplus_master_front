@@ -1,0 +1,42 @@
+export const FieldTypeSelect = [
+  { value: 1, label: 'Texto' },
+  { value: 2, label: 'Numérico' },
+  { value: 3, label: 'Booleano' },
+  { value: 4, label: 'Listas desplegables' },
+  { value: 5, label: 'Moneda' },
+  { value: 6, label: 'Fecha' },
+  { value: 7, label: 'Correo' },
+  { value: 8, label: 'Teléfono' },
+  { value: 9, label: 'Hora' },
+  { value: 10, label: 'Archivo' },
+  { value: 11, label: 'Ubicación Geográfica' },
+]
+
+export enum FieldTypeEnumSelect {
+  none = 0,
+  text = 1,
+  number = 2,
+  binary = 3,
+  catalog = 4,
+  currency = 5,
+  date = 6,
+  email = 7,
+  phone = 8,
+  hour = 9,
+  file = 10,
+  geographic_location = 11,
+}
+export enum FieldTypeEnumTrans {
+  none = ' 0',
+  text = 'Texto',
+  number = 'Numérico',
+  binary = 'Booleano',
+  catalog = 'Listas desplegables',
+  currency = 'Moneda',
+  date = 'Fecha',
+  email = 'Correo',
+  phone = 'Teléfono',
+  hour = 'Hora',
+  file = 'Archivo',
+  geographic_location = 'Ubicación Geográfica',
+}

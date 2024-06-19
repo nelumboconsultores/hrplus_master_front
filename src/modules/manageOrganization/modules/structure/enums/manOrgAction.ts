@@ -1,0 +1,4 @@
+export enum ManOrgAction {
+  SET_COMPLETED = 'SET_COMPLETED',
+  SET_ROUTE_ROAD = 'SET_ROUTE_ROAD',
+}

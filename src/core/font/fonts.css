@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Google Sans Bold';
+  src:
+    local('Lato'),
+    url(./ProductSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src:
+    local('Lato'),
+    url(./Poppins-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src:
+    local('Lato'),
+    url(./Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src:
+    local('Lato'),
+    url(./Poppins-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src:
+    local('Lato'),
+    url(./Montserrat-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Light';
+  src:
+    local('Lato'),
+    url(./Poppins-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src:
+    local('Lato'),
+    url(./Roboto-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src:
+    local('Lato'),
+    url(./Poppins-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src:
+    local('Lato'),
+    url(./Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src:
+    local('Lato'),
+    url(./Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src:
+    local('Lato'),
+    url(./Poppins-Bold.ttf) format('truetype');
+}
