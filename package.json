@@ -9,14 +9,10 @@
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,md}\" && eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "invalidation:dev": "aws cloudfront create-invalidation --distribution-id E4Z50R5KE938E --paths \"/*\"",
+    "invalidation:dev": "aws cloudfront create-invalidation --distribution-id E2IZUFTEXCM7ZD --paths \"/*\"",
     "build:dev": "tsc && vite build --mode development",
-    "upload:dev": "aws s3 sync dist/ s3://capital-humano-ui",
-    "deploy:dev": "yarn format && yarn build:dev && yarn upload:dev && yarn invalidation:dev",
-    "invalidation:qa": "aws cloudfront create-invalidation --distribution-id E2SRUN146G296U --paths \"/*\"",
-    "build:qa": "tsc && vite build --mode qa",
-    "upload:qa": "aws s3 sync dist/ s3://capital-humano-ui-qa",
-    "deploy:qa": "yarn format && yarn build:qa && yarn upload:qa && yarn invalidation:qa"
+    "upload:dev": "aws s3 sync dist/ s3://hrplus-front",
+    "deploy:dev": "yarn format && yarn build:dev && yarn upload:dev && yarn invalidation:dev"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.556.0",
